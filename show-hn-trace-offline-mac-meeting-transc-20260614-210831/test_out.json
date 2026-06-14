@@ -1,0 +1,8 @@
+{
+  "file": "main.py",
+  "size_bytes": 1699,
+  "lines": 53,
+  "words": 149,
+  "chars": 1685,
+  "preview": "#!/usr/bin/env python3\n\"\"\"Show HN: Trace \u2013 Offline Mac meeting transcripts you can flag mid-call \u2014 CLI Tool\nSource: [HN] https://traceapp.info\n\"\"\"\n\nimport argparse, json, os, sys\nfrom pathlib import Path\n\ndef process(input_path: str, output_path: str, **kwargs) -> dict:\n    \"\"\"Core processing logic.\"\"\"\n    path = Path(input_path)\n    if not path.exists():\n        return {\"error\": f\"File not found: {input_path}\"}\n    \n    content = path.read_text(encoding=\"utf-8\", errors=\"replace\")\n    lines = co"
+}
