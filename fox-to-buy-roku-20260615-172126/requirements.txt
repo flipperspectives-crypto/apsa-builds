@@ -1,0 +1,2 @@
+# DealWatch — pure stdlib, zero pip deps
+# Uses: urllib, json, xml.etree, hashlib, pathlib, argparse
