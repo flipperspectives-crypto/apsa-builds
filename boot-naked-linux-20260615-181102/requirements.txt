@@ -1,0 +1,2 @@
+# Pure stdlib — no pip packages required.
+# System dependencies: cpio, gzip (both standard on any Linux distro).

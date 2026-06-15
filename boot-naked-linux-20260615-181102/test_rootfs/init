@@ -1,0 +1,36 @@
+#!/bin/sh
+# ── Boot Naked Linux · minimal init ───────────────────────────────────
+# This script is PID 1.  It mounts essential virtual filesystems, then
+# drops you into a root shell.  No daemons, no service manager, no fuss.
+
+echo "╔══════════════════════════════════════════╗"
+echo "║       BOOT NAKED LINUX                  ║"
+echo "║       Kernel: $(uname -r)"
+echo "║       Arch:   $(uname -m)"
+echo "╚══════════════════════════════════════════╝"
+
+# Mount core virtual filesystems
+mount -t proc     proc     /proc     2>/dev/null
+mount -t sysfs    sysfs    /sys      2>/dev/null
+mount -t devtmpfs devtmpfs /dev      2>/dev/null
+mount -t tmpfs    tmpfs    /tmp      2>/dev/null
+
+# Set hostname
+hostname naked 2>/dev/null || echo "naked" > /proc/sys/kernel/hostname
+
+echo ""
+echo "  You are now running the most minimal Linux userspace possible."
+echo "  Available commands: $(ls /bin /sbin 2>/dev/null | tr '\n' ' ')"
+echo ""
+echo "  Type 'exit' or press Ctrl-Alt-Del to reboot."
+echo ""
+
+# Hand off to a shell; if it exits, restart it
+setsid /bin/cttyhack /bin/sh || setsid /bin/sh
+
+echo "init: shell exited — rebooting..."
+reboot -f 2>/dev/null
+sleep 2
+# Final fallback: tell kernel to restart
+echo b > /proc/sysrq-trigger 2>/dev/null
+exit 0
