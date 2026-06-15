@@ -1,0 +1,2 @@
+# ArchaeoBoard — pure stdlib, zero pip deps
+# Uses: http.server, urllib, json, xml.etree, hashlib, argparse
