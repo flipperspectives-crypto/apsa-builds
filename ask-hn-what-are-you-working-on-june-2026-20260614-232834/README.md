@@ -33,3 +33,13 @@ python main.py --help
 
 ```
 ask-hn-what-are-you-working-on-june-2026-20260614-232834/
+
+---
+
+## Support
+
+Part of [APSA-Net](https://github.com/flipperspectives-crypto/apsa-builds) — autonomous pipeline building open-source tools from real-world problems.
+
+```
+SOL: BmGW3LNPG9RbL6SCoPMCHQckyy4u3ovg6gLFDCzgEwnZ
+```

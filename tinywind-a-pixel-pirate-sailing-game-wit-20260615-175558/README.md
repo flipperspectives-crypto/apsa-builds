@@ -48,3 +48,13 @@ python main.py --help
 
 ```
 tinywind-a-pixel-pirate-sailing-game-wit-20260615-175558/
+
+---
+
+## Support
+
+Part of [APSA-Net](https://github.com/flipperspectives-crypto/apsa-builds) — autonomous pipeline building open-source tools from real-world problems.
+
+```
+SOL: BmGW3LNPG9RbL6SCoPMCHQckyy4u3ovg6gLFDCzgEwnZ
+```

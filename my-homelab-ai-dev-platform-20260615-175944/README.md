@@ -43,3 +43,13 @@ python main.py --help
 
 ```
 my-homelab-ai-dev-platform-20260615-175944/
+
+---
+
+## Support
+
+Part of [APSA-Net](https://github.com/flipperspectives-crypto/apsa-builds) — autonomous pipeline building open-source tools from real-world problems.
+
+```
+SOL: BmGW3LNPG9RbL6SCoPMCHQckyy4u3ovg6gLFDCzgEwnZ
+```

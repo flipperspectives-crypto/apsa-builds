@@ -36,3 +36,13 @@ Tested on:
 ## Why this beats the template stub
 
 The original APSA template generated a generic Flask dashboard. This is a real, working tool — 278 lines of actual logic vs 61 lines of scaffolding. LLM code-gen produces real solutions.
+
+---
+
+## Support
+
+Part of [APSA-Net](https://github.com/flipperspectives-crypto/apsa-builds) — autonomous pipeline building open-source tools from real-world problems.
+
+```
+SOL: BmGW3LNPG9RbL6SCoPMCHQckyy4u3ovg6gLFDCzgEwnZ
+```

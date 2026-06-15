@@ -32,3 +32,13 @@ show-hn-trace-offline-mac-meeting-transc-20260614-203917/
 ├── tests/
 └── main.py
 ```
+
+---
+
+## Support
+
+Part of [APSA-Net](https://github.com/flipperspectives-crypto/apsa-builds) — autonomous pipeline building open-source tools from real-world problems.
+
+```
+SOL: BmGW3LNPG9RbL6SCoPMCHQckyy4u3ovg6gLFDCzgEwnZ
+```

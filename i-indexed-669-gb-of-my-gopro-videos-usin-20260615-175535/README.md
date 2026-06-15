@@ -33,3 +33,13 @@ python main.py --help
 
 ```
 i-indexed-669-gb-of-my-gopro-videos-usin-20260615-175535/
+
+---
+
+## Support
+
+Part of [APSA-Net](https://github.com/flipperspectives-crypto/apsa-builds) — autonomous pipeline building open-source tools from real-world problems.
+
+```
+SOL: BmGW3LNPG9RbL6SCoPMCHQckyy4u3ovg6gLFDCzgEwnZ
+```
