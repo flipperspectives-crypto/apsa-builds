@@ -1,0 +1,3 @@
+# Fusion CLI — pure stdlib, zero pip deps
+# All dependencies are Python builtins:
+#   urllib, json, os, sys, argparse, textwrap, datetime
