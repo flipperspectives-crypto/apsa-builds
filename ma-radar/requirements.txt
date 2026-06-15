@@ -1,0 +1,2 @@
+# M&A Radar — pure stdlib, zero pip deps
+# Uses: urllib, json, xml.etree, http.server, re, hashlib, argparse
