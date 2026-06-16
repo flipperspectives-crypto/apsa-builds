@@ -1,0 +1,3 @@
+# emufix uses only Python standard library modules.
+# No pip install required.
+pure stdlib
