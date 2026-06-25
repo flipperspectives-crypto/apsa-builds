@@ -1,0 +1,2 @@
+# termcue — pure stdlib, zero external dependencies
+# No pip packages required. Uses only: argparse, math, os, signal, sys, termios, threading, time
