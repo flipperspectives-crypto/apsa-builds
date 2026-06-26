@@ -1,0 +1,1 @@
+pure stdlib — no external dependencies required
